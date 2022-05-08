@@ -18,15 +18,16 @@ export const Wrapped_Layout_Aside = styled.aside`
     position: relative;
     & > div {
         width: 100%;
+        min-width: 320px;
         padding-right: 16px;
         position: relative;
     }
     @media (min-width: 734px) {
         & > div {
-            width: 25%;
+            width: 22%;
             position: fixed;
         }
-        width: 25%;
+        width: 30%;
         ::after {
             content: "";
             position: absolute;
